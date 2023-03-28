@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    background-color: black;
+}
+
+main{
+    position: sticky;
+    display: block;
+}
+
+.size {
+    font-size: 50px;
+}
+
+.navbar-brand{
+    color: aliceblue;
+    display: inline;
+
+}
+
+.dropdown-item {
+    color: white;
+  }
+
+  .nav-link{
+    color: white;
+  }
+
+  .nav dropdown-toggle{
+    color: white;
+  }
+  .nav-item dropdown nav {
+    color: white;
+  }
+  .navbar-toggler-icon{
+    color: white;
+
+  }
+  .navbar-togglerb{
+    color: white;
+  }
+
+
+@media screen and (max-width: 768px) {
+.navbar-brand{
+    display: block;
+}
+main{
+    width: auto;
+    display: block;
+}
+.sticky-top{
+    width: 100%;
+}
+jumbo-bar{
+    width: auto;
+}
+}
+

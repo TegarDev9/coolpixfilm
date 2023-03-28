@@ -1,0 +1,39 @@
+{
+  "name": "coolpixfilm",
+  "version": "1.0.0",
+  "description": "Sumbimition fundamental-frond-end-web-developer-msib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "lint": "eslint ./src",
+    "fix": "eslint ./src --fix",
+    "build": "webpack --config webpack.prod.js",
+    "start-dev": "webpack-dev-server --config webpack.dev.js"
+  },
+  "author": "Tegar karunia ilham",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.36.0",
+    "file-loader": "^6.2.0",
+    "google-fonts-webpack-plugin": "^0.4.4",
+    "html-webpack-plugin": "^5.5.0",
+    "rimraf": "^4.4.1",
+    "style-loader": "^3.3.2",
+    "terser-webpack-plugin": "^5.3.7",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1",
+    "webpack-hot-middleware": "^2.25.3",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.4",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
